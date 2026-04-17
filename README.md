@@ -44,7 +44,7 @@ job-analyst-app/
 ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-git clone https://github.com/your-username/srn-analyst-app.git
+git clone https://github.com/your-username/job-analyst-app.git
 cd srn-analyst-app
 ### 2️⃣ Create virtual environment
 python -m venv venv
