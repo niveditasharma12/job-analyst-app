@@ -44,49 +44,48 @@ job-analyst-app/
 ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-```bash
 git clone https://github.com/your-username/srn-analyst-app.git
 cd srn-analyst-app
-###2️⃣ Create virtual environment
+### 2️⃣ Create virtual environment
 python -m venv venv
 Windows:
    venv\Scripts\activate
-###3️⃣ Install dependencies
+### 3️⃣ Install dependencies
    pip install -r requirements.txt
-###4️⃣ Configure environment variables
+### 4️⃣ Configure environment variables
    SECRET_KEY=your_secret_key
 DATABASE_URL=mysql+pymysql://username:password@localhost/db_name
 
-###5️⃣ Run database migrations
+### 5️⃣ Run database migrations
    alembic upgrade head
-###6️⃣ Run the application
+### 6️⃣ Run the application
     python run.py
 App will run on:
 
 http://127.0.0.1:5000/
-###API Endpoints (Sample)
+### API Endpoints (Sample)
 POST /login → User login
 GET /organizations → Fetch organizations
 POST /proposals → Create proposal
 GET /datasources → Fetch data sources
 
-###🔗 API Endpoints (Sample)
+### 🔗 API Endpoints (Sample)
 POST /login → User login
 GET /organizations → Fetch organizations
 POST /proposals → Create proposal
 GET /datasources → Fetch data sources
 
-###📊 Use Cases
+### 📊 Use Cases
 Backend system for business data management
 API layer for analytics dashboards
 Data processing and validation system
 
-###🚀 Future Enhancements
+### 🚀 Future Enhancements
 Add frontend UI (React/Angular)
 Deploy on cloud (AWS/GCP)
 Add role-based access control
 Improve data analytics features
 
-###👩‍💻 Author
+### 👩‍💻 Author
 
 Nivedita Sharma
