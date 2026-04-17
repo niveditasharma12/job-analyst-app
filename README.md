@@ -1,4 +1,8 @@
-# 🚀 SRN Analyst App
+# 🚀  Job Analyst App
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Flask](https://img.shields.io/badge/Flask-Backend-black)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+![License](https://img.shields.io/badge/License-Free-green)
 
 ## 📌 Overview
 Job Analyst App is a backend web application built using Flask that provides APIs for managing and analyzing organizational data. The application supports secure authentication, database operations, and structured data processing.
